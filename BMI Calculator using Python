@@ -1,3 +1,11 @@
+#A simple BMI calculator which position the BMI value into one of the 5 categories from below:
+# <18.5 Underweight
+# <=24.9 Normal Weight
+# <29.9 Overweight
+# <34.9 Obese
+# <39.9 Severely Obese
+# >39.9 Morbidly obese
+
 name = input("Enter your name: ")
 
 weight = int(input("Enter your weight in pounds: "))
@@ -16,7 +24,7 @@ if BMI>0:
     elif(BMI<29.9):
         print(name +", your are overweight.")
     elif(BMI<34.9):
-        print(name +", your are overweight.")
+        print(name +", your are obese.")
     elif(BMI<39.9):
         print(name +", your severily obese.")
     else:
