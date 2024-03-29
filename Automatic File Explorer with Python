@@ -1,3 +1,5 @@
+#File management system using Python os Madule and "for loop" to categorize files based on their extension and place them in specific folders.
+
 import os, shutil
 path = r"/Users/{User_name}/Downloads/Python Project/"
 file_name = os.listdir(path)
